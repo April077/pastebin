@@ -1,4 +1,11 @@
-import { Paste } from "@prisma/client";
+export type Paste = {
+  id: string;
+  content: string;
+  viewCount: number;
+  maxViews: number | null;
+  expiresAt: Date | null;
+  createdAt: Date;
+};
 
 export function isPasteExpired(paste: Paste, req: Request): boolean {
   let now = new Date();
