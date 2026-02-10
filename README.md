@@ -116,7 +116,7 @@ Then this value is treated as the current time **for expiry logic only**. If the
 ### 1. Install dependencies
 
 ```bash
-npm install
+yarn install
 ```
 
 ### 2. Set environment variables
