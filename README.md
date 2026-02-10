@@ -136,7 +136,7 @@ npx prisma db push
 ### 4. Start the development server
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 The application will be available at:
